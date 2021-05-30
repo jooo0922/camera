@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" type="module"></script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div class="split">
+      <!-- tabindex 속성은 스크린리더 사용자를 위한 키보드 접근성 제공 방법.
+      예를 들어, tabindex="1"로 지정하면, 해당 웹페이지 상에서 Tab 키를 눌렀을 때
+      tabindex="1"이 부여된 요소가 가장 먼저 포커스 됨.
+      이후에 Tab 키를 누르면 그 다음 번호가 부여된 요소로 포커스가 이동함.
+      이런식으로 Tab키를 이용하여 웹페이지 상의 요소에 순서대로 접근하고자 할 때 사용하는 속성임. -->
+      <div id="view1" tabindex="1"></div>
+      <div id="view2" tabindex="2"></div>
+    </div>
+  </body>
+</html>
